@@ -8,7 +8,7 @@ Remove the CloudFormation stack and all related assets for the current project f
 ## Usage
 
 ```bash
-arc destroy [production] [--name|--force|-f]
+arc destroy [--production] [--name|--force|-f]
 ```
 
 ## Examples
@@ -22,7 +22,7 @@ arc destroy --name my-app-name
 ### Destroy the production stack
 
 ```bash
-arc destroy production --name my-app-name
+arc destroy --production --name my-app-name
 ```
 
 ### Destroy stack with S3 bucket and/or Dynamo tables
